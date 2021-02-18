@@ -1,0 +1,27 @@
+[
+    {
+    "id":1,
+    "category":"Supporting Goods",
+    "price": 49.99,
+    "stocked": true,
+    "name": "Football",
+    "description": "high quality football item"
+    },
+    
+    {
+    "id":2,
+    "category":"Supporting Goods",
+    "price": 49.99,
+    "stocked": false,
+    "name": "Baseball",
+    "description": "high quality baseball item"
+    },
+    {
+    "id":1,
+    "category":"Supporting Goods",
+    "price": 49.99,
+    "stocked": true,
+    "name": "Basketball",
+    "description": "high quality basketball item"
+    }
+]
