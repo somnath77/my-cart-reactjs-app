@@ -1,15 +1,19 @@
 // import logo from './logo.svg';
 import './App.css';
-import * as lib from './cart'
-import productList from './productList.json'
+// import * as lib from './cart'
+import PostList from './PostList'
+
+// import productList from './productList.json'
 // console.log(productList);
 // import ProductList from './cart'
 
 function App() {
   return (
     <div className="App" >
-      < lib.ProductList />
-      {/* <lib.Danger/> */}
+      {/* < lib.ProductList /> */}
+
+      <PostList/>
+      {/* <lib.Danger/> */  }
       {/* <a href="www.reactjs.org"><p id="demo"></p></a> */
 
         // productList.map( (product) => {
@@ -17,10 +21,7 @@ function App() {
         // })
       
       }
-  
       
-
-
     </div>
   );
 }

@@ -1,18 +1,22 @@
-import {Button} from 'reactstrap'
-import React ,{useState}from "react"
-import productList from './productList.json'
-import Productcard from './productcard'
+ // import {Button} from 'reactstrap'
+// // import React ,{useState}from "react"
+// import productList from './productList.json'
+// import Productcard from './productcard'
 
 
-export const ProductList = () => {
-    return (
-        <>
-        {
-            productList.map( (product) => <Productcard product={product}/>)
-        }
-        </>
-    )
-}
+// export const ProductList = () => {
+//     return (
+//         <>
+//         {
+//             productList.map( (product) => <Productcard product={product}/>)
+//         }
+//         </>
+//     )
+// }
+
+// export const ProductList = () => <> { productList.map( (product) => <Productcard key={product.id} product={product}/>) } </>
+    
+
 
 // export default ProductList
 
